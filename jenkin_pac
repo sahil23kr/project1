@@ -1,0 +1,12 @@
+pipeline {
+  agent any
+  stages{
+   stage ("stage1"){
+    steps{
+     script{
+      println "This is my 1st PAC script"
+     }
+   }
+   }
+  }
+ } 
