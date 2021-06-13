@@ -5,4 +5,4 @@ for i in range(5):
 c=raw_input("Enter your name\n")
 for i in range(5):
  print i,".","your name is",c
-
+print "yes"
