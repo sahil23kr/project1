@@ -1,7 +1,8 @@
-#!/usr/bin/python
-print "this is my first example"
-print "......adding new line"
-print "*****cloned repo"
+#!bin/usr/python
+c=input("Enter any number\n")
 for i in range(5):
- print "number is"i
-print "end for loop"
+ print i,".","hello+",c
+c=raw_input("Enter your name\n")
+for i in range(5):
+ print i,".","your name is",c
+print "yes"
